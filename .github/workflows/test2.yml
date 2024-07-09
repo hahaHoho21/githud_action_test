@@ -1,1 +1,10 @@
-1
+name: hellowrd2
+on: [push]
+jobs:
+  bulid:
+    runs-on: ubuntu-latest
+    steps:
+    - name: test1
+      run: echo aaa!!
+    - name: 디렉토리~!~!
+      run: sudo ls -al
